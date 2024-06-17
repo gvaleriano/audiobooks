@@ -1,0 +1,32 @@
+{
+    "chapters": [
+      {
+        "id": "capitulo-1",
+        "title": "Mazze Runner - Correr ou Morrer",
+        "chapter": "1",
+        "author": "James Dashner",
+        "published_at": "2024-02-06 15:20:00",
+        "thumbnail": "https://i.imgur.com/rWE9zKz.jpeg",
+        "description": "<p>Um novo suspense se inicia.</p>",
+        "file": {
+          "url": "10E2Y4BzU0YFyj-SIISsabc3oGTPtfIrh",
+          "type": "audio/mp3",
+          "duration": 498
+        }
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Mazze Runner - Correr ou Morrer",
+        "chapter": "2",
+        "author": "James Dashner",
+        "published_at": "2024-02-06 15:23:00",
+        "thumbnail": "https://i.imgur.com/rWE9zKz.jpeg",
+        "description": "<p>Thomas acaba de chegar na clareira.</p>",
+        "file": {
+          "url": "1nZR4sXw5joW-yvjE6lIKGH8-DtD53dly",
+          "type": "audio/mp3",
+          "duration": 1211
+        }
+      }
+    ]
+  }
