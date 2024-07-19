@@ -36,7 +36,7 @@ type PlayerContextProviderProps = {
 }
 export function PlayerContextProvider({ children }: PlayerContextProviderProps) {
 
-    const [episodeList, setEpisodeList] = useState([]);
+    const [episodeList, setEpisodeList] = useState<Episode[]>([]);
     const [currentEpisodeIndex, setCurrentEpisodeIndex] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [isLooping, setIsLooping] = useState(false);
@@ -49,7 +49,6 @@ export function PlayerContextProvider({ children }: PlayerContextProviderProps) 
     }
 
     function playList(list: Episode[], index: number) {
-        console.log(list)
         setEpisodeList(list);
         setCurrentEpisodeIndex(index);
         setIsPlaying(true);
@@ -119,6 +118,7 @@ export function PlayerContextProvider({ children }: PlayerContextProviderProps) 
     )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const usePlayer = () => {
     return useContext(PlayerContext);
 }
