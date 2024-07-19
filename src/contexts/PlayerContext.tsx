@@ -118,7 +118,6 @@ export function PlayerContextProvider({ children }: PlayerContextProviderProps) 
     )
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const usePlayer = () => {
     return useContext(PlayerContext);
 }
