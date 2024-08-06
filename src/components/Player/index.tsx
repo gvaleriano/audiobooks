@@ -109,7 +109,7 @@ export function Player(){
                 {episode && (
                     <>
                     <audio
-                        src={"/books/mazze-runner/correr-ou-morrer/"+episode.chapter+".mp3"}
+                        src={"/books/mazze-runner/correr-ou-morrer/audio/"+episode.chapter+".mp3"}
                         ref={audioRef}
                         loop={isLooping}
                         onPlay={() => setPlayingState(true)}
@@ -128,7 +128,7 @@ export function Player(){
                         <img src="/play-previous.svg" alt="Tocar anterior" />
                     </button>
                     <button type="button" className="playButton" disabled={!episode} onClick={togglePlay}>
-                        {isPlaying ? <img src="pause.svg" alt="Tocar" /> : <img src="/play.svg" alt="Tocar" />}
+                        {isPlaying ? <img src="/pause.svg" alt="Tocar" /> : <img src="/play.svg" alt="Tocar" />}
                     </button>
                     <button type="button" disabled={!episode || !hasNext} onClick={playNext}>
                         <img src="/play-next.svg" alt="Tocar próxima" />

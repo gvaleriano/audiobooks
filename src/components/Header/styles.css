@@ -7,6 +7,11 @@
     padding: 2rem 4rem;
 
     border-bottom: 1px solid var(--gray-100);
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 
 .logo{

@@ -1,4 +1,4 @@
-import App from "../../App";
+import {App} from "../../App";
 import { PlayerContextProvider } from "../../contexts/PlayerContext";
 import { Header } from "../Header";
 import { Player } from "../Player";

@@ -6,6 +6,7 @@ type Episode = {
     author: string;
     thumbnail: string;
     file: {url : string, duration: number};
+    book: {text: string}
     chapter: number;
 }
 
